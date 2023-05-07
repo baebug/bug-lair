@@ -1,8 +1,5 @@
 module.exports = {
-    presets: [
-      '@babel/preset-env',
-      '@babel/preset-react'
-    ],
+    presets: [],
     plugins: [
       ['prismjs', {
         languages: ['javascript', 'html', 'css', 'bash', 'java', 'kotlin', 'docker', 'diff', 'python', 'yaml'],
