@@ -1,4 +1,4 @@
-import Prism from 'prismjs'
+import 'prismjs'
 import 'prismjs/themes/prism.css'
 import 'prismjs/components/prism-bash.js'
 import 'prismjs/components/prism-java.js'
