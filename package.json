@@ -14,7 +14,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/prismjs": "^1.26.0",
     "axios": ">=0.21.1",
     "mermaid": "^9.3.0",
     "next": "^12.1.0",
@@ -28,6 +27,7 @@
     "react-notion-x": "^6.16.0"
   },
   "devDependencies": {
+    "@types/prismjs": "^1.26.0",
     "@types/gtag.js": "^0.0.12",
     "@types/node": "^18.11.15",
     "@types/react": "^18.0.26",
