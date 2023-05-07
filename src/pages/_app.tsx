@@ -13,9 +13,12 @@ import 'prismjs/components/prism-yaml.js'
 import 'prismjs/plugins/line-numbers/prism-line-numbers.js';
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 import 'prismjs/plugins/show-language/prism-show-language.js';
-import 'prismjs/plugins/toolbar/prism-toolbar.js';
+import 'prismjs/plugins/show-language/prism-show-language.css';
 import 'prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js';
+import 'prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.css';
 import 'prismjs/plugins/diff-highlight/prism-diff-highlight.js';
+import 'prismjs/plugins/diff-highlight/prism-diff-highlight.css';
+import 'prismjs/plugins/toolbar/prism-toolbar.js';
 import 'prismjs/plugins/toolbar/prism-toolbar.css';
 
 import 'react-notion-x/src/styles.css'
