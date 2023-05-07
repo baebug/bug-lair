@@ -17,7 +17,7 @@ const CONFIG = {
     },
     {
       name: `HAST`,
-      href: "https://github.com/baebug/tonny-bunny",
+      href: "https://github.com/baebug/hast",
     },
   ],
   // blog setting (required)
