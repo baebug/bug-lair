@@ -1,5 +1,5 @@
 import 'prismjs'
-import 'prismjs/themes/prism.css'
+import 'prismjs/themes/prism-tomorrow.css'
 import 'prismjs/components/prism-bash.js'
 import 'prismjs/components/prism-java.js'
 import 'prismjs/components/prism-kotlin.js'
