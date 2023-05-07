@@ -10,7 +10,7 @@ const ServiceCard: React.FC = () => {
       <ul className="rounded-2xl mb-9 bg-white dark:bg-zinc-700 p-1 flex flex-col">
         {CONFIG.projects.map((project) => (
           <a
-            key={project.id}
+            key={project.name}
             href={`${project.href}`}
             rel="noreferrer"
             target="_blank"
