@@ -14,7 +14,7 @@
   @apply my-1;
 }
 
-.notion-table-of-contents {
+.notion-table-of-contents * {
   @apply text-gray-500 dark:text-gray-400;
 }
 
