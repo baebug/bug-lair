@@ -5,6 +5,7 @@
   @apply text-gray-600 dark:text-gray-300;
   overflow-wrap: break-word;
 }
+
 .notion,
 .notion-text,
 .notion-quote,
@@ -19,7 +20,6 @@
 }
 
 .notion-table-of-contents-item-body {
-  @apply dark:border-b-1;
   @apply dark:border-b-gray-200;
 }
 
