@@ -20,7 +20,7 @@
 }
 
 .notion-table-of-contents-item-body {
-  @apply dark:border-b-gray-200;
+  @apply dark:border-b-gray-600;
 }
 
 .notion-toggle {
