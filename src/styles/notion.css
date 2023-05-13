@@ -19,7 +19,8 @@
   @apply text-gray-500 dark:text-gray-400;
 }
 
-.notion-table-of-contents-item-body {
+.notion-table-of-contents-item-body,
+.notion-link {
   @apply dark:border-b-gray-600;
 }
 
@@ -29,7 +30,13 @@
 
 .notion-list li {
   @apply py-0;
+  @apply my-1;
 }
+
+.notion-list > .notion-list {
+  @apply p-0;
+}
+
 .notion-page-link {
   color: inherit;
 }
@@ -103,4 +110,5 @@ pre[class*="language-"] {
 
 .notion-hr {
   border-top: 1px solid rgba(55, 53, 47, 0.16);
+  @apply dark:border-t-gray-500;
 }
