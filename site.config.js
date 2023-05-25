@@ -12,12 +12,16 @@ const CONFIG = {
   },
   projects: [
     {
+      name: `HAST`,
+      href: "https://github.com/baebug/hast",
+    },
+    {
       name: `tonny-bunny`,
       href: "https://github.com/baebug/tonny-bunny",
     },
     {
-      name: `HAST`,
-      href: "https://github.com/baebug/hast",
+      name: `냥그릇`,
+      href: "https://github.com/baebug/nyang-dish",
     },
   ],
   // blog setting (required)
