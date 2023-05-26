@@ -33,7 +33,7 @@
 }
 
 .notion-list li,
-.notion-column > div {
+.notion-column > .notion-text {
   @apply py-0;
   @apply my-1 !important;
 }
