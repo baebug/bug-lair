@@ -112,3 +112,10 @@ pre[class*="language-"] {
   border-top: 1px solid rgba(55, 53, 47, 0.16);
   @apply dark:border-t-gray-500;
 }
+
+.notion-code * {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
