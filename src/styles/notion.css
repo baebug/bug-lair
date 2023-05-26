@@ -15,6 +15,10 @@
   @apply my-1;
 }
 
+.notion-h {
+  padding: 3px 0;
+}
+
 .notion-table-of-contents * {
   @apply text-gray-500 dark:text-gray-400;
 }
@@ -28,9 +32,10 @@
   @apply w-full;
 }
 
-.notion-list li {
+.notion-list li,
+.notion-column > div {
   @apply py-0;
-  @apply my-1;
+  @apply my-1 !important;
 }
 
 .notion-list > .notion-list {
