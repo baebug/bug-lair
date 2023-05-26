@@ -5,10 +5,10 @@ import { ThemeType } from "@customTypes/index"
 export const getTheme: () => ThemeType = () => {
   const themeConfig = CONFIG.blog.theme as "auto" & ThemeType
   if (themeConfig !== "auto") return themeConfig
-  if (localStorage.getItem("theme") === "light") {
-    return "light"
-  } else {
+  if (localStorage.getItem("theme") === "dark") {
     return "dark"
+  } else {
+    return "light"
   }
 }
 
