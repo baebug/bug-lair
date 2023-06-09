@@ -30,6 +30,11 @@
 
 .notion-toggle {
   @apply w-full;
+  padding-left: .6em;
+}
+
+.notion-toggle > summary {
+  padding: 6px 0;
 }
 
 .notion-list li,
@@ -38,7 +43,11 @@
   @apply my-1 !important;
 }
 
-.notion-list > .notion-list {
+.notion-list-disc {
+  list-style-type: circle;
+}
+
+ol > .notion-list {
   @apply p-0;
 }
 
