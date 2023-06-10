@@ -133,3 +133,7 @@ pre[class*="language-"] {
   -ms-user-select: text;
   user-select: text;
 }
+
+.notion-callout-text > .notion-callout > .notion-page-icon-inline {
+  display: none;
+}
